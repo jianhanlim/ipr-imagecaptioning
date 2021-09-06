@@ -1,7 +1,12 @@
-# Image Captioning IP Protection
+# Image Captioning IPR Protection
+
 [Pattern Recognition](https://www.sciencedirect.com/science/article/abs/pii/S0031320321004659) | [ArXiv](https://arxiv.org/abs/2008.11009)
 
 ### Official implementation of the paper: "Protect, Show, Attend and Tell: Empowering Image Captioning Models with Ownership Protection"
+
+#### Pattern Recognition
+
+Released on Sept 01, 2021
 
 ## Description
 
@@ -15,7 +20,18 @@ We will update the repo once the code is organized and ready.
 ## Citation
 If you find this work useful for your research, please cite
 ```
-To be updated soon
+@article{IcIPR,
+  author    = {Jian Han Lim and
+               Chee Seng Chan and
+               Kam Woh Ng and
+               Fixin Fan and
+               Qiang Yang},
+  title     = {Protect, show, attend and tell: Empowering image captioning models with ownership protection},
+  journal   = {Pattern Recognit.},
+  year      = {2021},
+  url       = {https://doi.org/10.1016/j.patcog.2021.108285},
+  doi       = {10.1016/j.patcog.2021.108285},
+}
 ```
 
 ## Feedback
@@ -25,4 +41,4 @@ Suggestions and opinions on this work (both positive and negative) are greatly w
 ## License and Copyright
 The project is open source under BSD-3 license (see the ``` LICENSE ``` file).
 
-&#169;2021 University of Malaya and WeBank.
+&#169;2021 Universiti Malaya and WeBank.
