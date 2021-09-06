@@ -6,7 +6,7 @@
 
 #### Pattern Recognition
 
-Released on Sept 01, 2021
+Released on August 22, 2021
 
 ## Description
 
