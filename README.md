@@ -1,5 +1,5 @@
 # Image Captioning IP Protection
-[ArXiv](https://arxiv.org/abs/2008.11009)
+[Pattern Recognition](https://www.sciencedirect.com/science/article/abs/pii/S0031320321004659) | [ArXiv](https://arxiv.org/abs/2008.11009)
 
 ### Official implementation of the paper: "Protect, Show, Attend and Tell: Empowering Image Captioning Models with Ownership Protection"
 
