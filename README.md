@@ -38,6 +38,13 @@ If you find this work useful for your research, please cite
 Suggestions and opinions on this work (both positive and negative) are greatly welcomed. Please contact the authors by sending an email to
 `jianhanl98 at gmail.com` or `cs.chan at um.edu.my`.
 
+## References
+* The baseline implementation of "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention" by Xu et al. (ICML2015) was based on this [repo](https://github.com/DeepRNN/image_captioning)
+* [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044). Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, Yoshua Bengio. ICML 2015.
+* [Microsoft COCO dataset](http://mscoco.org/)
+* [Flickr30k dataset](http://shannon.cs.illinois.edu/DenotationGraph/)
+* [Flickr8k dataset](https://illinois.edu/fb/sec/1713398)
+
 ## License and Copyright
 The project is open source under BSD-3 license (see the ``` LICENSE ``` file).
 
