@@ -1,0 +1,59 @@
+1. Start the docker by running the script in run_docker.sh (remember to change the path of dataset and some folders)
+2. Run below script to start training and evaluation
+
+For MSCOCO
+'''
+for i in 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+do
+GPU=0
+MODEL_NOTUNE=resnet50_mscoco_keymulbisign_notune_2_123_3
+MODEL=resnet50_mscoco_keymulbisign_2_123_3
+MODEL_EVAL=model-329999
+START_MODEL=model-129999
+DATASET=mscoco
+SEED=123
+KEY='image captioning with protection'
+ATTACK_KEY=$i
+ATTACK_SIGN=0
+ATTACK_PRUNE=0
+sh eval_attack.sh $GPU $MODEL "$KEY" $MODEL_EVAL $DATASET $SEED $ATTACK_KEY $ATTACK_SIGN $ATTACK_PRUNE
+done
+'''
+
+For Flickr30k
+'''
+for i in 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+do
+GPU=0
+MODEL_NOTUNE=resnet50_keymulbisign_notune_2_123_3
+MODEL=resnet50_keymulbisign_2_123_3
+MODEL_EVAL=model-74999
+START_MODEL=model-29999
+DATASET=flickr30k
+SEED=123
+KEY='image captioning with protection'
+ATTACK_KEY=$i
+ATTACK_SIGN=0
+ATTACK_PRUNE=0
+sh eval_attack.sh $GPU $MODEL "$KEY" $MODEL_EVAL $DATASET $SEED $ATTACK_KEY $ATTACK_SIGN $ATTACK_PRUNE
+done
+'''
+
+For Flickr8k
+'''
+for i in 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+do
+GPU=0
+MODEL_NOTUNE=resnet50_8k_keymulbisign_notune_1_123_2
+MODEL=resnet50_8k_keymulbisign_1_123_2
+MODEL_EVAL=model-16820
+START_MODEL=model-6728
+DATASET=flickr8k
+SEED=123
+KEY='this is my unique key to protect this model.'
+ATTACK_KEY=$i
+ATTACK_SIGN=0
+ATTACK_PRUNE=0
+sh eval_attack.sh $GPU $MODEL "$KEY" $MODEL_EVAL $DATASET $SEED $ATTACK_KEY $ATTACK_SIGN $ATTACK_PRUNE
+done
+'''
