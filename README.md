@@ -6,7 +6,7 @@
 
 #### Pattern Recognition
 
-Stay Tuned ...
+16 Sept. 2021
 
 ## Description
 
