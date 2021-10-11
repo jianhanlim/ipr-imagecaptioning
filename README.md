@@ -4,7 +4,7 @@
 
 ### Official implementation of the paper: "Protect, Show, Attend and Tell: Empowering Image Captioning Models with Ownership Protection"
 
-#### Pattern Recognition
+#### Published at Pattern Recognition, Elsevier
 
 Released on 16 September 2021
 
