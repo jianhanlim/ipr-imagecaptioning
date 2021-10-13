@@ -12,7 +12,7 @@ Released on 16 September 2021
 
 <p align="justify"> By and large, existing Intellectual Property (IP) protection on deep neural networks typically i) focus on image classification task only, and ii) follow a standard digital watermarking framework that was conventionally used to protect the ownership of multimedia and video content. This paper demonstrates that the current digital watermarking framework is insufficient to protect image captioning tasks that are often regarded as one of the frontiers AI problems. As a remedy, this paper studies and proposes two different embedding schemes in the hidden memory state of a recurrent neural network to protect the image captioning model. From empirical points, we prove that a forged key will yield an unusable image captioning model, defeating the purpose of infringement. To the best of our knowledge, this work is the first to propose ownership protection on image captioning task. Also, extensive experiments show that the proposed method does not compromise the original image captioning performance on all common captioning metrics on Flickr30k and MS-COCO datasets, and at the same time it is able to withstand both removal and ambiguity attacks.</p>
 
-<p align="center"> <img src="pr2021a.jpg" width="35%"> </p>
+<p align="center"> <img src="pr2021a.png" width="50%"> </p>
 <p align="center"> Figure 1: We show that our deep captioning networks with 80% to 95% sparse are capable to either match or even slightly outperform their dense counterparts.</p>
 
 ## Preparation
