@@ -15,6 +15,11 @@ Released on 16 September 2021
 <p align="center"> <img src="pr2021a.png" width="50%"> </p>
 <p align="center"> Figure 1: An overview of our approach. (a) The original LSTM Cell and (b) LSTM Cell with key embedding operation</p>
 
+
+
+https://user-images.githubusercontent.com/23725126/137418947-db800aef-8565-4f9f-bac8-9ffa0bc42d8f.mp4
+
+
 ## Preparation
 ### Dataset
 - **MSCOCO**: Download the COCO train2014 and val2014 data from [here](http://cocodataset.org/#download)
