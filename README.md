@@ -88,4 +88,4 @@ Suggestions and opinions on this work (both positive and negative) are greatly w
 ## License and Copyright
 The project is open source under BSD-3 license (see the ``` LICENSE ``` file).
 
-&#169;2021-2022 Universiti Malaya and WeBank.
+&#169;2021 Universiti Malaya and WeBank.
