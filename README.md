@@ -6,15 +6,15 @@
 
 #### Published at Pattern Recognition, Elsevier
 
-Released on August 2021
+(Released on August 2021)
 
 Updated on 04 October 2022
 
 ## Updates
 1. Fix bugs
-2. Our framework on GAN IP protection is accepted in CVPR 2021, see [Project Repo](https://github.com/dingsheng-ong/ipr-gan).
-3. Our framework on DNN IP protection is accepted in TPAMI 2022, see [Project Repo](https://github.com/kamwoh/DeepIPR).
-4. Our framework on RNN IP protection is accepted in AACL IJCNLP 2022, see [Project Repo](https://github.com/zhiqin1998/RecurrentIPR).
+2. Our framework on GAN IP protection is accepted in CVPR 2021, see [here](https://github.com/dingsheng-ong/ipr-gan).
+3. Our framework on DNN IP protection is accepted in TPAMI 2022, see [here](https://github.com/kamwoh/DeepIPR).
+4. Our framework on RNN IP protection is accepted in AACL IJCNLP 2022, see [here](https://github.com/zhiqin1998/RecurrentIPR).
 
 
 ## Description
