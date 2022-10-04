@@ -6,7 +6,9 @@
 
 #### Published at Pattern Recognition, Elsevier
 
-Released on 26 September 2022
+Released on August 2021
+
+Updated on 04 October 2022
 
 ## Updates
 1. Fix bugs
