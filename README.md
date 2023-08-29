@@ -68,7 +68,7 @@ Refer to the ```scripts/attack_sign_steps.txt``` to attack the model with fake s
 
 ## Citation
 If you find this work useful for your research, please cite
-```
+```bibtex
 @article{IcIPR,
   author    = {Jian Han Lim and
                Chee Seng Chan and
